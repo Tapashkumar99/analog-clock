@@ -1,0 +1,44 @@
+#clockContainer{
+    position: relative;
+    margin:auto;
+    height:40vw;
+    width:40vw;
+    background: url("clock2.png") no-repeat;
+    background-size: 100%;
+}
+
+#hour_hand,
+#minute_hand,
+#second_hand {
+    position: absolute;
+    
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+    
+#hour_hand {
+    background: rgb(214, 6, 6);
+    width: 1.8%;
+    height: 25%;
+    top: 24.75%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+#minute_hand{
+    background: rgb(6, 59, 235);
+   width: 1.6%;
+   height: 30%;
+   top: 19.25%;
+   left: 49.35%;
+   opacity: 0.8;
+}
+
+#second_hand{
+    background: rgb(0, 0, 0);
+    width: 1%;
+    height: 40%;
+    top: 9.75%;
+    left: 49.25%;
+    opacity: 0.8;
+}
